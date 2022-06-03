@@ -10,3 +10,6 @@ def app1 (request):
 
 def index (request):
     return HttpResponse('abc')
+
+def app2 (request):
+    return render(request, 'app2.html')
